@@ -19,6 +19,7 @@ quick-sharun /usr/bin/wish ./AppDir/bin/*
 mkdir -p ./AppDir/share/fonts
 cp -v /usr/share/fonts/HP-15C_Simulator_Font.ttf ./AppDir/share/fonts
 cp -r /usr/lib/tcl8.6 ./AppDir/shared/lib
+cp -r /usr/lib/tk8.6 ./AppDir/shared/lib
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
